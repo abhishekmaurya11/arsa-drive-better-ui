@@ -138,3 +138,74 @@ border-radius: 12px;
 .slider-sec{
     text-align: center;
 }
+
+
+.accordian-sec{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+/* Container styling */
+.accordian-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.accordian-item {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 0px 20px 0px #1672FD4D;
+
+box-shadow: 0px 0px 10px 0px #417FFF33;
+
+margin: 20px;
+    margin-bottom: 40px;
+
+
+
+}
+
+/* Header styling */
+.accordian-header {
+    background-color: #f9f9f9;
+    padding: 18px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordian-header:hover {
+    background-color: #f1f1f1;
+}
+
+/* Add an icon (optional) */
+.accordian-header::after {
+    content: '+';
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate icon when active */
+.accordian-item.active .accordian-header::after {
+    transform: rotate(45deg);
+}
+
+/* Content styling - Hidden by default */
+.accordian-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+    background-color: #fff;
+    padding: 0 20px; /* Vertical padding is 0 when closed */
+}
+
+/* Active state for content */
+.accordian-item.active .accordian-content {
+    max-height: 500px; /* Large enough to fit your text */
+    padding: 20px;
+}
