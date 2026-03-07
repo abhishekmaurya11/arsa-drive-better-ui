@@ -1,0 +1,140 @@
+.correct{
+    border: 1px solid green;
+    position: relative;
+
+    padding: 8px;
+display: inline-block;
+border-radius: 50px;
+}
+
+.sub-correct{
+
+    border: 1px solid green;
+
+    border-left: 1px solid green;
+    border-bottom: 1px solid green  ;
+    border-top: 0px solid green;
+    border-right: 0px solid green;
+    height: 4px;
+    width: 15px;
+
+    position: absolute;
+left: 4px;
+top: 0px;
+padding : 4px;
+transform: rotate(-45deg);
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    width: 1200px;
+    margin: 60PX auto;
+    
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+width: 1200px;
+
+;
+}
+
+.UCAR{
+    text-align: center;
+    padding: 10PX;
+}
+
+.sub-plans-container{
+border: 1px solid  #1A1A1A;
+padding: 8px;
+border-radius: 12px;
+
+}
+
+.sub-plans-container2{
+ border: 8px solid #395886;
+padding: 8px;
+border-radius: 12px;
+}
+
+
+/* ///////////////////////////////  */
+
+
+
+.imgh{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.testimonial{
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.imgh-container{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-container{
+    border: 2px solid #1A1A1A;
+    padding: 10px;
+    border-radius: 12px;
+    width: 22vw;
+
+
+    margin: 20px;
+
+}
+
+.slider{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.super-slider{
+    position: relative;
+        overflow: hidden;
+
+}
+
+
+.next-btn{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1A1A1A;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1A1A1A;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider-sec{
+    text-align: center;
+}

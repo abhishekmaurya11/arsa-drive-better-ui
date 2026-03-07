@@ -1,0 +1,106 @@
+.mercerdes{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.premium-sedan{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+    
+}
+
+.car-card{
+    width: 205px;
+    height: 100px;
+    display: block;
+
+}
+
+.card-1{
+    width: 210px;
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 8px;
+transform: perspective(1000px) rotateX(0deg) rotateY(35deg) rotateZ(-1deg);
+display: inline-block;
+
+}
+
+
+.card-2{
+    width: 210px;
+    border: 1px solid black;
+    padding: 30px 10px;
+    border-radius: 8px;
+transform: perspective(1000px) rotateX(0deg) rotateY(-35deg) rotateZ(1deg);
+display: inline-block;
+
+}
+
+.thar{
+    width: 400px;
+    height: 330px;
+display: inline-block;
+
+}
+
+.smooth-border-thar1{
+    padding: 1px;
+    border-radius: 82px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    position: absolute;
+
+width: 450px;
+    height: 330px;
+display: inline-block;
+    bottom: 8px;
+    left: auto;
+}
+
+.smooth-border-thar2{
+    padding: 1px;
+    border-radius: 82px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    position: absolute;
+
+width: 450px;
+    height: 330px;
+display: inline-block;
+    bottom: 10px;
+    left: auto;
+}
+
+
+
+.smart-vehicle-comparison{
+    width: 450px;
+    height: 330px;
+position: relative;
+
+}
+
+
+
+.car-show{
+    display: flex;
+justify-content: space-around;
+}
+
+
